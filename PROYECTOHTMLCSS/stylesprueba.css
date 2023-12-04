@@ -1,0 +1,685 @@
+/* ENCABEZADO */
+body{
+    margin: 0;
+}
+#encabezado{
+    width: 100%; 
+    border-color: #f9f9f9b5;
+    color: #ffffff;
+    position: fixed;
+    z-index: 99999;
+    background-color: #00000084;
+}
+#padreencabezado{
+    display: flex;
+    justify-content: center;
+}
+.hijoencabezado{
+    width: 50%;
+}
+#logo{
+    margin: 2%;
+    padding-left: 7%;
+}
+#hijo2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu{
+    padding: 0% 3%;
+}
+.hijitoencabezado{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 15px;
+    letter-spacing: 0.5px
+}
+.aencabezado{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.aencabezadogris{
+    color: #B4B7B7;
+    text-decoration: none;
+    padding-right: 10px;
+}
+#imgmenu{
+    width: 35px;
+    border-left-width: 1;
+    border-left-style: solid;
+    border-left-width: thin;
+    border-left-color:#FFFFFF;
+    padding: 0 30px;
+}
+#textologo{
+    max-height: 20px;
+}
+#iconologo{
+    display: none;
+}
+/* PORTADA */
+#superpadreportada{
+    position: relative;
+}
+#padreportada{
+    max-height: 600;
+    background-size: cover;
+    background-position: center;
+    background-image: url(IMGS/portada\ editada\ 2.png);
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5% 5% 5%;
+}
+#padrebuscar{
+    padding: 3% 3% 20% 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-items: end;
+}
+#buscar{
+    padding: 8px 20px 8px 20px;
+    border-radius: 100px;
+    border: 1px solid #FFFFFF;
+    background: none;
+    width: 25%;
+    color: #ffffff;
+}
+#buscar::placeholder{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    background-image: url(IMGS/magnifying-glass-solid.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #fff;
+}
+#padretexto{
+    display: flex;
+    flex-direction: column;
+/*     padding-top: 3%; */
+}
+#portadaluxury{
+    color: #B4B7B7;
+    font-weight: 400;
+    font-size: 25px;
+    padding-left: 1%;
+}
+#realestate{
+    font-weight: 500;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-bottom: 3%;
+}
+#allproperties{
+    padding: 15px;
+    margin-left: 20px;
+    width: 250px;
+    border-radius: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    background-color: transparent;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: thin;
+    display: flex;
+}
+#allproperties:hover{
+    background-color: #000000;
+    color: #ffffff;
+
+}
+#iconoflecha{
+    height: 20px;
+    padding-left: 10px;
+}
+#textoboton{
+    padding-left: 30px;
+}
+/* FOLLOW */
+#follow{
+    position: fixed;
+    bottom: 5%;
+    left: 1%;
+    z-index: 10;
+}
+.redes{
+    display: block;
+    padding-bottom: 10px;
+}
+#textofollow{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: #7E7E7E;
+    writing-mode: vertical-lr;
+    margin-bottom: 10px;
+    justify-self: center;
+}
+#linea{
+    padding: 0 0 5px 5px;
+}
+#padrefollow{
+    padding-left: 50%;
+}
+/* SECCIONES VENTA Y RENTA */
+.padresection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5% 0%;
+    column-gap: 14px;
+}
+.listacarrusel{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow: hidden;
+    max-width: 100%;
+    column-gap: 14px;
+}
+#hijo3{
+    direction: rtl;
+}
+.galeria1{
+    direction: ltr;
+}
+.imagencarrusel{
+    text-decoration: none;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+#img1{
+    background-image: url("IMGS/Mask\ group-9.jpg");
+}
+#img2{
+    background-image: url("IMGS/Mask\ group-8.jpg");
+}
+#img3{
+    background-image: url("IMGS/scott-lorsch-Cqvdb3bvmCY-unsplash\ 1.png");
+}
+#img15{
+    background-image: url("IMGS/Mask\ group-18.jpg");
+}
+#img16{
+    background-image: url("IMGS/Mask\ group-19.jpg");
+}
+#img17{
+    background-image: url("IMGS/The-Paraiso-Residences-1304-39\ \(1\).jpg");
+}
+#img18{
+    background-image: url("IMGS/The-Residences-7402-1.jpg");
+}
+.opcioncarrusel{
+    width: 250px;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: end;
+}
+.opcioncarrusel:hover .castillo{
+    display: flex;
+}
+.opcioncarrusel:hover .padrecastillo{
+    background-color: #ffffff;
+}
+.opcioncarrusel:hover .ubicacioncarrusel{
+    background-color: #ffffff;
+    color: #000000;
+}
+.opcioncarrusel:hover .cliccarrusel{
+    background-color: #ffffff;
+    color: #000000;
+}
+.padrecastillo{
+    display: flex;
+    flex-direction: row;
+}
+.castillo{
+    padding-left: 5%;
+    display: none;
+}
+.ubicacioncarrusel{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 5% 0 5%;
+    overflow: hidden;
+    padding-top: 3%;
+    display: inline;
+}
+.cliccarrusel{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    overflow: hidden;
+    padding: 0 5% 0 5%;
+    padding-bottom: 3%;
+}
+.descripsection{
+    margin: 0 10%;
+}
+.textoder{
+    text-align: right!important;
+}
+.galeria{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #DF991B;
+    display: block;
+}
+.titulosection{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+.textosection{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 330;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 20%;
+    text-align: justify;
+}
+.padreboton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.botonnav{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 14px;
+    color: #B4B7B7;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+}
+.botonnav:hover{
+    color: #DF991B;
+    .iconoder{
+        display: none;
+    }
+    .iconoderhover{
+        display: inline-block;
+    }
+    .iconoizq{
+        display: none;
+    }
+    .iconoizqhover{
+        display: inline-block;
+    }
+}
+.botonnav:hover{
+    color: #DF991B;
+}
+.botonant{
+    margin: 7px 0 5px 7px;
+}
+.botonsig{
+    margin: 7px 10px 7px 0;
+}
+.iconoizqhover{
+    display: none;
+}
+.iconoderhover{
+    display: none;
+}
+.botonmas{
+    padding: 3%;
+    width: 50%;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 100px;
+    background-color: transparent;
+    border: solid #000000 thin;
+    text-align: center;
+    font-size: 15px;
+}
+.botonmas:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+#botonmas2:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+#img4{
+    background-image: url("IMGS/Mask\ group-10.jpg");
+}
+#img5{
+    background-image: url("IMGS/Mask\ group-13.jpg");
+}
+#img6{
+    background-image: url("IMGS/Mask\ group-21.jpg");
+}
+/* DEPARTAMENTOS */
+.textolujo{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-items: center;
+}
+.galeria2{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #DF991B;
+}
+.titulosection2{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+#contenedorlujo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2% 2%;
+    justify-items: stretch;
+    margin: 0 5%;
+}
+#img7{
+    background-image: url("IMGS/Mask\ group-5.jpg");
+}
+#img8{
+    background-image: url("IMGS/Mask\ group-7.jpg");
+}
+#img9{
+    background-image: url("IMGS/Mask\ group-6.jpg");
+}
+#img10{
+    background-image: url("IMGS/Mask\ group.jpg");
+}
+#img11{
+    background-image: url("IMGS/Mask\ group-4.jpg");
+}
+#img12{
+    background-image: url("IMGS/Mask\ group-3.jpg");
+}
+#img13{
+    background-image: url("IMGS/Mask\ group-2.jpg");
+}
+#img14{
+    background-image: url("IMGS/Mask\ group-1.jpg");
+}
+.imagensalta{
+    height: 240px;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: end;
+}
+.opcioneslujo2{
+    width: 100%
+}
+.ubicacion{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 7% 0 7%;
+    overflow: hidden;
+    padding-top: 3%;
+    background-color: #ffffff;
+    display: block;
+    border-color: #000000 solid;
+    border: 0 1;
+}
+.locacion{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    overflow: hidden;
+    padding: 0 7% 5% 7%;
+    background-color: #ffffff;
+    display: block;
+}
+.imagensalta:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+.imagensalta:hover .ubicacion{
+    border-color: #000000;
+    border-width: thin;
+    border-style: solid;
+    border-bottom: 0;
+}
+.imagensalta:hover .locacion{
+    border-color: #000000;
+    border-width: thin;
+    border-style: solid;
+    border-top: 0;
+}
+/* SERVICIOS */
+.padresectionservicios{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin: 5% 0%;
+    column-gap: 5%;
+}
+#imgsection4{
+    background-image: url(IMGS/WhatsApp\ Image\ 2023-11-28\ at\ 7.37.12\ PM.jpeg);
+    margin-left: 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#textoservicios{
+    display: flex;
+    flex-direction: column;
+}
+.hijodescripcion{
+    margin-right: 15%;
+}
+.hijoservicios{
+    display: block;
+}
+#logoservicios{
+    background-image: url(IMGS/Group\ 290\ larga.jpg);
+    background-size: cover;
+    background-position: left;
+    margin: 10% 0;
+}
+.titulosection3{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+.textosection2{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 330;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 30%;
+    text-align: justify;
+}
+.padreboton2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15%;
+}
+/* CORREO */
+#padrecorreo{
+    display: grid;
+    grid-template-columns: 5% auto 5%;
+    justify-items: stretch;
+}
+.margen{
+    display: flex;
+    flex-direction: column;
+}
+.blanco{
+    background-color: #ffffff;
+    height: 50%;
+}
+.negro{
+    background-color: #000000;
+    height: 50%;
+}
+#contenidocorreo{
+    background-color: #26282B;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#galeriacorreo{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #DF991B;
+    padding-top: 5%;
+}
+#textocorreo{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 35px;
+    color: #FFFFFF;
+    align-self: start;
+}
+#correo{
+    padding: 2% 0 2% 5%;
+    color: #7E7E7E;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 100px;
+    border-color: #7E7E7E;
+    border: solid 0.5px;
+    font-style: normal;
+    font-size: 12px;
+    background: none;
+    margin: 5% 0;
+    width: 90%;
+}
+#email{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin: 5% 0 0 5%;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+#hijocorreo1{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 10%;
+}
+#hijocorreo2{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 3% 10% 5% 0;
+}
+#submit{
+    background-color: transparent;
+    color: #DF991B;
+    border-radius: 100px;
+    border-color: #DF991B;
+    border: solid 0.5px;
+    font-style: normal;
+    font-size: 17px;
+    justify-self: end;
+    margin-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 50%;
+}
+#submit:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+/* FOOTER */
+#padrefooter{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+    background-color: #000000;
+    column-gap: 2%;
+    row-gap: 10%;
+    justify-items: stretch;
+    padding: 7% 5% 3% 5%;
+}
+.textofooter{
+    color: #B4B7B7;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    text-decoration: none;
+    display: block;
+}
+#hijofooter1{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#hijofooter2{
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#hijofooter3{
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#hijofooter4{
+    justify-items: end;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#logofooter{
+    margin-bottom: 10%;
+}
+#apartamentos{
+    margin-bottom: 10%;
+}
+#callcenter{
+    font-family: 'Playfair Display', serif!important; 
+}
+#numero{
+    font-size: 150%;
+    font-family: 'Playfair Display', serif!important; 
+}
+#copyrightsection{
+    display: grid;
+    grid-template-columns: 5% auto 5%;
+    background-color: #000000;
+}
+#copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    border-top: 1px solid white;
+    padding: 2% 0;
+}

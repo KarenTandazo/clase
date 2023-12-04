@@ -1,0 +1,329 @@
+#follow{
+    @media (max-width: 750px){
+        display: none;
+    }
+}
+.titulosection{
+    @media (max-width: 860px){
+        font-size: 28px;
+    }
+}
+.titulosection2{
+    @media (max-width: 860px){
+        font-size: 37px;
+    }
+}
+.textosection{
+    @media (max-width: 860px){
+        font-size: 17px;
+        line-height: 30px;
+    }
+}
+.textosection2{
+    @media (max-width: 860px){
+        font-size: 17px;
+        line-height: 30px;
+    }
+}
+.galeria{
+    @media (max-width: 860px){
+        font-size: 21px;
+    }
+}
+.galeria{
+    @media (max-width: 860px){
+        font-size: 21px;
+    }
+}
+.galeria2{
+    @media (max-width: 860px){
+        font-size: 21px;
+    }
+}
+.botonnav{
+    @media (max-width: 860px){
+        font-size: 12px;
+    }
+}
+.botonmas{
+    @media (max-width: 860px){
+        font-size: 12px;
+    }
+}
+.opcioncarrusel{
+    @media (max-width: 1000px){
+        width: 230px;
+    }
+}
+.opcioncarrusel{
+    @media (max-width: 800px){
+        width: 200px;
+    }
+}
+.padresection{
+    @media (max-width: 700px){
+        grid-template-columns: 1fr;
+        margin: 6% 0%;
+    }
+}
+#hijo3{
+    @media (max-width: 700px){
+        direction: ltr; 
+    }
+}
+.textoder{
+    @media (max-width: 700px){
+        text-align: left!important;
+    }
+}
+.imagencarrusel{
+    @media (max-width: 700px){
+        width: auto;
+        height: 250px;
+    }
+}
+.descrpsection{
+    @media (max-width: 700px){
+        margin: 5% 10% 0 10%;
+    }
+}
+#hijo3{
+    @media (max-width: 700px){
+        order: 2;
+    }
+}
+#hijo4{
+    @media (max-width: 700px){
+        order: 1;
+    }
+}
+.descripsection{
+    @media (max-width: 700px){
+        margin-bottom: 5%;
+    }
+}
+.textosection{
+    @media (max-width: 700px){
+        margin-bottom: 10%;
+    }
+}
+#contenedorlujo{
+    @media (max-width: 1000px){
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+#contenedorlujo{
+    @media (max-width: 750px){
+        grid-template-columns: 1fr 1fr;
+    }
+}
+#contenedorlujo{
+    @media (max-width: 550px){
+        grid-template-columns: 1fr;
+        overflow-y: hidden;
+    }
+}
+.menu{
+    @media (max-width: 760px){
+        display: none;
+    }
+}
+.menu{
+    @media (max-width: 800px){
+        display: none;
+    }
+}
+#imgmenu{
+    @media (max-width: 760px){
+        width: 25px;
+    }
+}
+#textologo{
+    @media (max-width: 760px){
+        width: 175px;
+    }
+}
+.textofooter{
+    @media (max-width: 1100px){
+        font-size: 15px;
+    }
+}
+#padrefooter{
+    @media (max-width: 760px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+#hijofooter2{
+    @media (max-width: 760px){
+        margin: 0 0 0 15%;
+    }
+}
+#hijofooter3{
+    @media (max-width: 760px){
+        margin: 0;
+    }
+}
+#hijofooter4{
+    @media (max-width: 760px){
+        justify-items: start;
+        margin: 0 0 0 15%;
+    }
+}
+.textofooter{
+    @media (max-width: 500px){
+        font-size: 13px;
+        justify-self: center;
+    }
+}
+#numero{
+    @media (max-width: 500px){
+        font-size: 100%;
+    }
+}
+#padrefooter{
+    @media (max-width: 450px){
+        display: flex;
+        flex-direction: column;
+    }
+}
+#hijofooter2{
+    @media (max-width: 500px){
+        margin: 0;
+    }
+}
+#logofooter{
+    @media (max-width: 500px){
+        margin-bottom: 5%;
+    }
+}
+#apartamentos{
+    @media (max-width: 500px){
+        margin: 0;
+    }
+}
+#hijofooter4{
+    @media (max-width: 500px){
+        margin: 0;
+    }
+}
+.ubicacion{
+    @media (max-width: 1100px){
+        font-size: 15px;
+    }
+}
+.locacion{
+    @media (max-width: 1100px){
+        font-size: 18px;
+    }
+}
+#textocorreo{
+    @media (max-width: 900px){
+        font-size: 28px;
+    }
+}
+#galeriacorreo{
+    @media (max-width: 900px){
+        font-size: 22px;
+    }
+}
+#email{
+    @media (max-width: 900px){
+        font-size: 15px;
+    }
+}
+#submit{
+    @media (max-width: 900px){
+        font-size: 13px;
+    }
+}
+#contenidocorreo{
+    @media (max-width: 700px){
+        grid-template-columns: 1fr;
+    }
+}
+#hijocorreo2{
+    @media (max-width: 700px){
+        margin: 3% 10% 5% 10%;
+    }
+}
+.titulosection3{
+    @media (max-width: 860px){
+        font-size: 30px;
+    }
+}
+.textosection2{
+    @media (max-width: 860px){
+        margin-bottom: 10%;
+    }
+}
+.padresectionservicios{
+    @media (max-width: 760px){
+        grid-template-columns: 1fr;
+        margin: 5%;
+    }
+}
+#imgsection4{
+    @media (max-width: 760px){
+        height: 400px!important;
+        margin: 0;
+        order: 2;
+    }
+}
+.hijodescripcion{
+    @media (max-width: 760px){
+        margin-right: 0;
+    }
+}
+
+#logoservicios{
+    @media (max-width: 1000px){
+        margin: 2% 0;
+    }
+}
+#realestate{
+    @media (max-width: 760px){
+        font-size: 40px;
+    }
+}
+#portadaluxury{
+    @media (max-width: 760px){
+        font-size: 22px;
+    }
+}
+#textoboton{
+    @media (max-width: 900px){
+        font-size: 13px;
+    }
+}
+#iconologo{
+    @media (max-width: 500px){
+        display: block;
+    }
+}
+#uniq{
+    @media (max-width: 500px){
+        display: none;
+    }
+}
+#padrebuscar{
+    @media (max-width: 760px){
+        justify-items: center;
+        padding: 10% 5% 30% 5%;
+    }
+}
+#buscar{
+    @media (max-width: 760px){
+        width: 80%;
+    }
+}
+#copyright{
+    @media (max-width: 760px){
+        font-size: 13px;
+    }
+}
+#copyright{
+    @media (max-width: 500px){
+        font-size: 11px;
+    }
+}
