@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 JavaScript y POO</title>
+</head>
+<body>
+    <script>
+        let numeroDeElementos = 5
+        let SerieFibonnaci = [0,1]
+        
+        if (numeroDeElementos<=0){
+            alert("¡Error! Ingresa un número positivo")
+        } 
+        else if (numeroDeElementos==1){
+            console.log(SerieFibonnaci[0])
+        }  
+        else if (numeroDeElementos==2){
+            console.log(SerieFibonnaci)
+        }  
+        else if (numeroDeElementos>=3){
+            for (let i=2; i<numeroDeElementos; i++){
+                SerieFibonnaci.push(SerieFibonnaci[i-1]+SerieFibonnaci[i-2])
+            }
+            console.log(SerieFibonnaci)
+        }  
+        else {
+            alert("¡Error! Ingresa un valor numérico")
+        }      
+        
+    </script>
+</body>
+</html>
